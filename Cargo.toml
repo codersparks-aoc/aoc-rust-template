@@ -1,0 +1,17 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+edition = "2024"
+# We set publish to false by default to prevent publishing solutions
+publish = false
+
+[lib]
+name = "{{project-name}}"
+path = "src/lib.rs"
+
+[[bin]]
+name = "{{project-name}}-run"
+path = "src/bin.rs"
+
+[dependencies]
+thiserror = "2.0.16"
