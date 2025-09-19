@@ -1,6 +1,6 @@
 use tracing::{Level, debug};
 use clap::{Parser, ValueEnum};
-use aoc_{{ project-name  | snake_case }}::{part_1, part_2, AOCResult, AOCSolution};
+use {{ crate_name }}::{part_1, part_2, AOCResult, AOCSolution};
 
 #[derive(Debug, Copy, Clone, PartialEq, Eq, PartialOrd, Ord, ValueEnum, Default)]
 enum Part {

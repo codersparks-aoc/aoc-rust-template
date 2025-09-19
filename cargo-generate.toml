@@ -1,0 +1,13 @@
+[template]
+ignore = [
+    "target"
+]
+exclude = [
+    "target/"
+]
+include = [
+    "src/",
+    "Cargo.toml",
+    "Cargo.lock",
+    ".gitignore"
+]

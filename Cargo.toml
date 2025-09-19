@@ -1,16 +1,16 @@
 [package]
-name = "aoc-aoc_{{ project-name  | kebab_case }}"
+name = "aoc-{{ project-name }}"
 version = "0.1.0"
 edition = "2024"
 # We set publish to false by default to prevent publishing solutions
 publish = false
 
 [lib]
-name = "aoc_{{ project-name  | snake_case}}"
+name = "{{ crate_name }}"
 path = "src/lib.rs"
 
 [[bin]]
-name = "aoc_{{ project-name  | snake_case}}_cli"
+name = "{{ crate_name }}_cli"
 path = "src/main.rs"
 
 [dependencies]
