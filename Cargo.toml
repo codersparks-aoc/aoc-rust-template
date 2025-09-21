@@ -1,5 +1,5 @@
 [package]
-name = "aoc-{{ project-name }}"
+name = "{{ project-name }}"
 version = "0.1.0"
 edition = "2024"
 # We set publish to false by default to prevent publishing solutions
