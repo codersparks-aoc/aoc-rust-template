@@ -10,7 +10,7 @@ name = "{{ crate_name }}"
 path = "src/lib.rs"
 
 [[bin]]
-name = "{{ crate_name }}_cli"
+name = "{{ crate_name }}"
 path = "src/main.rs"
 
 [dependencies]
